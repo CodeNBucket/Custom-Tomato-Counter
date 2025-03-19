@@ -1,0 +1,19 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore dataset backups
+dataset/*.zip
+dataset/*.tar
+
+# Ignore YOLO training logs & checkpoints (except best.pt)
+runs/
+runs/train/
+runs/train/exp/weights/last.pt
+
+# Ignore large files (videos, models)
+*.mp4
+*.avi
+*.mov
+*.pt
