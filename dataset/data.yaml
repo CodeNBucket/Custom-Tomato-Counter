@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Tomato']
+
+roboflow:
+  workspace: canberk-qi0vx
+  project: tomato_count_project
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/canberk-qi0vx/tomato_count_project/dataset/1
